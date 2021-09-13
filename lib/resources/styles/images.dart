@@ -1,0 +1,84 @@
+class AppImages {
+  static const base_asset = "assets/images/";
+  static const base_asset_ic = "assets/images/icons/";
+  static const base_asset_sticker = "assets/images/stickers/";
+  static String icSetting = "${base_asset_ic}ic_setting.svg";
+  static String icCreateWallet = "${base_asset_ic}ic_create_wallet.png";
+  static String icNoti = "${base_asset_ic}ic_noti.svg";
+  static String icEditText = "${base_asset_ic}ic_edit_text.svg";
+  static String icSort = "${base_asset_ic}ic_sort.svg";
+  static String icEditNeon = "${base_asset_ic}ic_edit_neon.svg";
+  static String icEditEmoji = "${base_asset_ic}ic_edit_emoji.svg";
+  static String icEdit = "${base_asset_ic}ic_edit_sticker.svg";
+  static String icEditCrop = "${base_asset_ic}ic_edit_crop.svg";
+  static String icEditSaturation = "${base_asset_ic}ic_edit_saturation.svg";
+  static String icEditSaturationActive =
+      "${base_asset_ic}ic_edit_saturation_active.svg";
+  static String icEditBlur = "${base_asset_ic}ic_edit_blur.svg";
+  static String icSearch = "${base_asset_ic}ic_search.svg";
+  static String icEditBlurActive = "${base_asset_ic}ic_edit_blur_active.svg";
+  static String icEditContrast = "${base_asset_ic}ic_edit_contrast.svg";
+  static String icEditContrastActive =
+      "${base_asset_ic}ic_edit_contrast_active.svg";
+  static String icEditFilter = "${base_asset_ic}ic_edit_filter.svg";
+  static String icEditFilterActive =
+      "${base_asset_ic}ic_edit_filter_active.svg";
+  static String icEditColor = "${base_asset_ic}ic_edit_color.svg";
+  static String icEditColorActive = "${base_asset_ic}ic_edit_color_active.svg";
+  static String icArrowDown = "${base_asset_ic}ic_arrow_down.svg";
+  static String icSendImage = "${base_asset_ic}ic_send_image.svg";
+  static String icShutter = "${base_asset_ic}ic_capture.svg";
+  static String icTransactionSucess =
+      "${base_asset_ic}ic_transaction_success.svg";
+  static String icParse = "${base_asset_ic}ic_parse.svg";
+  static String icSwitchCamera =
+      "${base_asset_ic}assets/images/assets/images/ic_switch_camera_3.png";
+  static String icAddWallet = "${base_asset_ic}ic_add_wallet.png";
+  static String icDashboard = "${base_asset_ic}ic_dashboard.svg";
+  static String icHeart = "${base_asset_ic}ic_heart.svg";
+  static String icCopy = "${base_asset_ic}ic_copy.svg";
+  static String icQrCode = "${base_asset_ic}ic_qr_code.svg";
+  static String icAccount = "${base_asset_ic}ic_account.svg";
+  static String icSpotlight = "${base_asset_ic}ic_spotlight.svg";
+  static String icCamera = "${base_asset_ic}ic_camera.svg";
+  static String icWarning = "${base_asset_ic}ic_warning.svg";
+  static String icSync = "${base_asset_ic}ic_sync.svg";
+  static String icBackUp = "${base_asset_ic}ic_backup.svg";
+  static String icLang = "${base_asset_ic}ic_lang.svg";
+  static String icAmount = "${base_asset_ic}ic_amount.svg";
+  static String icShare = "${base_asset_ic}ic_share.svg";
+  static String icFollow = "${base_asset_ic}ic_follow.png";
+  static String icFeedback = "${base_asset_ic}ic_feedback.png";
+  static String icReview = "${base_asset_ic}ic_review.png";
+  static String icDeveloper = "${base_asset_ic}ic_developer.svg";
+  static String icSuccess = "${base_asset_ic}ic_success.svg";
+  static String icKey = "${base_asset_ic}ic_key.svg";
+  static String icTag = "${base_asset_ic}ic_tag.svg";
+  static String icLocation = "${base_asset_ic}ic_location.svg";
+  static String icPost = "${base_asset_ic}ic_post.svg";
+  static String icFacebook = "${base_asset_ic}ic_facebook.svg";
+  static String icZalo = "${base_asset_ic}ic_zalo.svg";
+  static String icDraft = "${base_asset_ic}ic_draft.svg";
+  static String icTransaction = "${base_asset_ic}ic_transaction.svg";
+  static String icArrowCircleDown = "${base_asset_ic}ic_arrow_down_circle.svg";
+  static String icArrowCircleUp = "${base_asset_ic}ic_arrow_up_circle.svg";
+  static String icDonation = "${base_asset_ic}ic_donation.svg";
+  static String icMoonx = "${base_asset_ic}ic_moonx.svg";
+  static String icMoon = "${base_asset_ic}ic_moon.svg";
+  static String icPayvin = "${base_asset_ic}ic_payvin.svg";
+  static String icEthereum = "${base_asset_ic}ic_ethereum.svg";
+  static String icBitcoin = "${base_asset_ic}ic_bitcoin.svg";
+  static String icPlusCircle = "${base_asset_ic}ic_plus_circle.svg";
+  static String icUploadSuccess = "${base_asset_ic}ic_success_upload.svg";
+  static String icPrivate = "${base_asset_ic}ic_private.svg";
+  static String icArrowBack = "${base_asset_ic}ic_arrow_back.svg";
+  static String icLogoQRCode = "${base_asset}ic_logo_qrcode.png";
+  static String backgroundIntroduce = "${base_asset}introduce.svg";
+  static String backgroundPostTest = "${base_asset}image_post_test.png";
+  static String layerTopLeft = "${base_asset}layer_top_left.svg";
+  static String layerTopRight = "${base_asset}layer_top_right.svg";
+  static String layerBottomRight = "${base_asset}layer_bottom_right.svg";
+  static String layerBottomLeft = "${base_asset}layer_bottom_left.svg";
+  static String logoIntroduction = "${base_asset}logo_introduction.svg";
+  static String imgSplash = "${base_asset}launch_image.png";
+}
