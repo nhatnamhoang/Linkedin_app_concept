@@ -1,4 +1,4 @@
-package com.linkedinconcept.app.linkedin_app_concept
+package com.linkedinconcept.app
 
 import io.flutter.embedding.android.FlutterActivity
 

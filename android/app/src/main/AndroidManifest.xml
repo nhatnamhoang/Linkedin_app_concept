@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.linkedinconcept.app.linkedin_app_concept">
+    package="com.linkedinconcept.app">
    <application
         android:label="linkedin_app_concept"
         android:icon="@mipmap/ic_launcher">
