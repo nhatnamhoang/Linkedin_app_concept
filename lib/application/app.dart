@@ -6,15 +6,14 @@ import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:get/get.dart';
 import 'package:get/get_navigation/get_navigation.dart';
+import 'package:linkedin_app_concept/resources/styles/colors.dart';
 
 class Application extends StatefulWidget {
-
   @override
   _ApplicationState createState() => _ApplicationState();
 }
 
 class _ApplicationState extends State<Application> {
-
   @override
   void initState() {
     super.initState();
@@ -47,8 +46,7 @@ class _ApplicationState extends State<Application> {
   }
 
   _applicationTheme() => ThemeData(
-        primarySwatch: Colors.deepOrange,
-        appBarTheme: AppBarTheme(color: Colors.deepOrange),
+        appBarTheme: AppBarTheme(color: AppColors.mainColor),
       );
 
   void _initLoading() => EasyLoading.instance

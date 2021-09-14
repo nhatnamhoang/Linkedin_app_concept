@@ -3,13 +3,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart';
 
-getLocalize(String key, { List<String>? args}) => key.trArgs(args!);
+getLocalize(String key, {List<String>? args}) => key.trArgs(args!);
 
 widthScreen({int? percent}) =>
     percent != null ? (Get.width * percent) / 100 : Get.width;
 
 heightScreen({int? percent}) =>
     percent != null ? (Get.height * percent) / 100 : Get.height;
+
+Widget heightSpace(double value) => SizedBox(height: value);
+
+Widget widthSpace(double value) => SizedBox(width: value);
 
 goTo({@required String? screen, dynamic argument}) =>
     Get.toNamed(screen!, arguments: argument);

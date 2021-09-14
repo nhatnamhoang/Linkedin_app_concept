@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'colors.dart';
 import 'fonts.dart';
-
 
 class AppStyles {
   static var mainTheme = ThemeData(
     primaryColor: AppColors.mainColor,
-    accentColor: AppColors.mainColor,
     platform: TargetPlatform.iOS,
     scaffoldBackgroundColor: AppColors.white,
     errorColor: AppColors.red,
@@ -23,30 +22,14 @@ class AppStyles {
     fontFamily: AppFonts.typeRegular,
   );
 
-  TextStyle typeRegular(double size, [HexColor? color]) {
-    return TextStyle(
+  TextStyle typeRoboto(double size, [HexColor? color]) {
+    return GoogleFonts.roboto(
       fontSize: size,
-      color: color ?? AppColors.mediumGrayW600,
-    );
-  }
-
-  TextStyle typeUnderLine(double size, [HexColor? color]) {
-    return TextStyle(
-      fontSize: size,
-      color: color ?? AppColors.mediumGrayW600,
-      decoration: TextDecoration.underline,
+      color: color ?? AppColors.textPrimaryColor,
     );
   }
 
   TextStyle typeError() {
-    return TextStyle(fontSize: 10.5, color: AppColors.red);
-  }
-
-  TextStyle typeBold(double size, [HexColor? color]) {
-    return TextStyle(
-        fontSize: size,
-        color: color ?? AppColors.mediumGrayW600,
-        fontFamily: AppFonts.typeBold,
-        fontWeight: FontWeight.w600);
+    return GoogleFonts.roboto(fontSize: 10.5, color: AppColors.red);
   }
 }
