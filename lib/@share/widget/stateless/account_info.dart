@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:linkedin_app_concept/@core/router/pages.dart';
 import 'package:linkedin_app_concept/@share/utils/util.dart';
 import 'package:linkedin_app_concept/resources/styles/styles.dart';
 
@@ -11,9 +12,12 @@ class AccountInfo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        NetworkCircleAvatar(
-          avatarUrl: "https://i.ibb.co/HqBs6tM/user-avatar.png",
-          width: 36,
+        InkWell(
+          onTap: () => goTo(screen: ROUTER_PROFILE),
+          child: NetworkCircleAvatar(
+            avatarUrl: "https://i.ibb.co/VS7X2H1/austin-wade-X6-Uj51n5-CE8-unsplash.png",
+            width: 36,
+          ),
         ),
         widthSpace(17),
         Column(

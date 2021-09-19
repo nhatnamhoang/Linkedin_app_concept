@@ -11,12 +11,10 @@ class ListPost extends StatefulWidget {
 class _ListPostState extends State<ListPost> {
   @override
   Widget build(BuildContext context) {
-    return Expanded(
-      child: ListView.builder(
-        itemCount: 4,
-        padding: const EdgeInsets.all(0),
-        itemBuilder: (context, index) => PostWidget(),
-      ),
+    return ListView.builder(
+      itemCount: 4,
+      padding: const EdgeInsets.all(0),
+      itemBuilder: (context, index) => PostWidget(),
     );
   }
 }

@@ -5,11 +5,9 @@ import 'package:linkedin_app_concept/resources/styles/colors.dart';
 class NetworkCircleAvatar extends StatelessWidget {
   final String? avatarUrl;
   final double? width;
-
-  NetworkCircleAvatar({
-    @required this.avatarUrl,
-    @required this.width,
-  });
+  final BoxShadow? boxShadow;
+  NetworkCircleAvatar(
+      {@required this.avatarUrl, @required this.width, this.boxShadow});
 
   @override
   Widget build(BuildContext context) {
@@ -21,6 +19,16 @@ class NetworkCircleAvatar extends StatelessWidget {
         borderRadius: BorderRadius.all(
           Radius.circular(width! / 2),
         ),
+        boxShadow: boxShadow != null
+            ? [boxShadow!]
+            : [
+                BoxShadow(
+                  color: Colors.white,
+                  spreadRadius: 0,
+                  blurRadius: 0,
+                  offset: Offset(0, 0),
+                ),
+              ],
       ),
       child: _buildCircleImage(width! / 2),
     );

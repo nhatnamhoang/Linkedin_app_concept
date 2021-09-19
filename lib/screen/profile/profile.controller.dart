@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:linkedin_app_concept/@core/router/pages.dart';
+import 'package:linkedin_app_concept/@share/utils/util.dart';
 
-class HomeController extends GetxController with SingleGetTickerProviderMixin {
-  var pageController = PageController(viewportFraction: 1);
-
+class ProfileController extends GetxController
+    with SingleGetTickerProviderMixin {
   late TabController tabController;
 
   var indexTab = 0.obs;
@@ -12,11 +13,10 @@ class HomeController extends GetxController with SingleGetTickerProviderMixin {
     indexTab.value = val;
   }
 
-
   @override
   void onInit() {
     super.onInit();
-    tabController = TabController(vsync: this, length: 2);
+    tabController = TabController(vsync: this, length: 3);
   }
 
   @override
@@ -28,5 +28,4 @@ class HomeController extends GetxController with SingleGetTickerProviderMixin {
   void onReady() {
     super.onReady();
   }
-
 }

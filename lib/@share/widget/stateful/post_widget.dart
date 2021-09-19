@@ -21,7 +21,7 @@ class _PostWidgetState extends State<PostWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 23.9, vertical: 17.5),
+      padding: const EdgeInsets.symmetric(horizontal: 23.9).copyWith(top: 25),
       child: Column(
         children: [
           _buildHeaderInfo(),
@@ -30,7 +30,9 @@ class _PostWidgetState extends State<PostWidget> {
           heightSpace(9.3),
           _buildImage(),
           heightSpace(17.5),
-          ActionBottomBar()
+          ActionBottomBar(),
+          heightSpace(28),
+          Divider(color: AppColors.blueUnSelectedIcon,),
         ],
       ),
     );
