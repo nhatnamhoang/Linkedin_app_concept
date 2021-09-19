@@ -1,4 +1,4 @@
-Linkedin_app_concept
+Linkedin app concept
 
 State management : GetX
 
